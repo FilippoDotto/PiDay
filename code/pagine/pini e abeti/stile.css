@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(197, 168, 184);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    display: inline-block;
+    position: relative;
+    left: 490px;
+}
+img{
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+}
+form{
+    display: inline-block;
+    position: relative;
+    bottom: 160px;
+    left: 50px;
+}
+#bottone{
+    background-color: blue;
+    color: white;
+    border-radius:35%;
+    height: 50px;
+    width: 90px;
+    position:relative;
+    right: 170px;   
+}
+#bottone:hover{
+    background-color: aqua;
+    color: black;
+
+}
