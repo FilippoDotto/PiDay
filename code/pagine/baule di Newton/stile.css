@@ -1,0 +1,32 @@
+body{
+    background-color: lightblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div{
+    display: inline-block;
+    position: relative;
+    left: 490px;
+}
+h1{
+    text-align: center;
+}
+form{
+    display: inline-block;
+    position: relative;
+    bottom: 90px;
+    left: 30px;
+}
+#bottone{
+    background-color: blue;
+    color: white;
+    border-radius:35%;
+    height: 50px;
+    width: 90px;
+    position:relative;
+    right: 170px;   
+}
+#bottone:hover{
+    background-color: aqua;
+    color: black;
+
+}
