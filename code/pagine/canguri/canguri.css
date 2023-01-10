@@ -1,0 +1,32 @@
+:root {
+  --bakcground-shadow-color: rgb(22 36 71 / 0.15);
+  --kangaroo-box-color: rgb(196, 196, 196);
+}
+
+#provadiv {
+  background-color: #fff;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
+
+  box-shadow: inset 0px 4px 250px var(--bakcground-shadow-color),
+    inset 0px -214px 250px -71px var(--bakcground-shadow-color);
+}
+
+#kangaroo-container {
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  top: 27.8vh;
+  display: flex;
+}
+.kangaroo-box {
+  align-self: start;
+  width: 18.25vh;
+  height: 18.25vh;
+  background-color: var(--kangaroo-box-color);
+  margin-left: ;
+  border-radius: 10px;
+}
